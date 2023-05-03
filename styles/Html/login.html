@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Components/Login/Login.css">
+  <script src="https://kit.fontawesome.com/b3426387ba.js" crossorigin="anonymous"></script>
+  <script src="./Login.js"></script>
+  <title>Login</title>
+</head>
+<body>
+  <header class="Menu">
+    <nav class="Menu__Header">
+        <a class="Menu__Header__link" href="index.html">Home</a>
+        <a class="Menu__Header__link" href="cars.html">Cars</a>
+        <a class="Menu__Header__link" href="about.html">About Us</a>
+        <a class="Menu__Header__link" href="contact.html">Contact Us</a>
+        <a class="Menu__Header__link" href="login.html"><i class="fa-regular fa-user"></i></a>
+    </nav>
+  </header>
+  <div id="login">
+      <form class="card">
+        <div class="card-header">
+          <h2>Login</h2>
+        </div>
+        <div class="card-content">
+          <div class="card-content-area">
+              <label for="usuario">User:</label>
+              <input type="text" id="usuario" placeholder="Insert your username" autocomplete="off">
+        </div>
+          <div class="card-content-area">
+              <label for="password">Password:</label>
+              <input type="text" id="password" placeholder="Insert your password" autocomplete="off">
+          </div>
+        </div>
+        <div class="card-footer">
+             <input type="submit" value="Login" class="submit">
+             <a href="#" class="recover_password">Forgot your password?</a>
+        </div>
+      </form>
+  </div>
+
+  <footer>
+    <span>
+      &copy; Zion Cars, 2023 - All rights reserved.
+    </span>
+  </footer>
+</body>
+</html>
